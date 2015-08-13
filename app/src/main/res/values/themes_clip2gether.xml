@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="clip2gether" parent="@style/_clip2gether"/>
+
+  <style name="_clip2gether" parent="android:Theme.Light">
+
+    <item name="android:editTextStyle">@style/EditTextclip2gether</item>
+
+    <item name="android:textColorHighlight">#99fbba0e</item>
+
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewclip2gether</item>
+
+    <item name="android:checkboxStyle">@style/CheckBoxclip2gether</item>
+
+    <item name="android:radioButtonStyle">@style/RadioButtonclip2gether</item>
+
+    <item name="android:buttonStyle">@style/Buttonclip2gether</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonclip2gether</item>
+
+    <item name="android:spinnerStyle">@style/Spinnerclip2gether</item>
+
+    <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemclip2gether</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarclip2gether</item>
+
+    <item name="android:seekBarStyle">@style/SeekBarclip2gether</item>
+
+    <item name="android:buttonStyleToggle">@style/Toggleclip2gether</item>
+
+    <item name="android:listViewStyle">@style/ListViewclip2gether</item>
+
+    <item name="android:listViewWhiteStyle">@style/ListViewclip2gether.White</item>
+
+    <item name="android:spinnerItemStyle">@style/SpinnerItemclip2gether</item>
+
+  </style>
+
+</resources>

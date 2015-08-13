@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- APP specific start -->
+    <string name="app_name">clip2gether</string>
+    <!-- APP specific stop -->
+
+
+
+    <!-- URL start -->
+    <string name="urlConn_loginURL">http://www.clip2gether.com/mobile/app/v1/android/login/login.php</string>
+    <string name="urlConn_registURL">http://www.clip2gether.com/mobile/app/v1/android/register/register.php</string>
+    <string name="urlConn_uploadURL">http://www.clip2gether.com/mobile/app/v1/android/upload/upload.php</string>
+    <string name="urlConn_shareURL">http://www.clip2gether.com/2fies/2fies/?contest=photo-detail&amp;photo_id=</string>
+    <string name="urlConn_authControllURL">http://www.clip2gether.com/mobile/app/v1/android/socialAuth/view.php</string>
+        <!-- AUTH REGISTER start -->
+        <string name="urlConn_authRegister_GPlus">http://www.clip2gether.com/wp-login.php?action=wordpress_social_authenticate&amp;mode=login&amp;provider=Google&amp;redirect_to=http%3A%2F%2Fwww.clip2gether.com%2Fmobile%2Fapp%2Fv1%2Fandroid%2FsocialAuth%2Findex.php</string>
+        <string name="urlConn_authRegister_Facebook">http://www.clip2gether.com/wp-login.php?action=wordpress_social_authenticate&amp;mode=login&amp;provider=Facebook&amp;redirect_to=http%3A%2F%2Fwww.clip2gether.com%2Fmobile%2Fapp%2Fv1%2Fandroid%2FsocialAuth%2Findex.php</string>
+        <!-- AUTH REGISTER stop -->
+        <!-- GALERIE start -->
+        <string name="urlConn_webview_view2fieURL">http://www.clip2gether.com/mobile/app/v1/wrapper/galerie.php?url=http://www.clip2gether.com/2fies/2fies/?contest=photo-detail&amp;photo_id=</string>
+        <string name="urlConn_webview_viewGallery">http://www.clip2gether.com/mobile/app/v1/wrapper/galerie.php</string>
+        <!-- GALERIE stop -->
+    <string name="urlConn_shareApp">http://play.google.com/store/apps/details?id=com.hswgt.android.clip2gether</string>
+    <!-- URL stop-->
+
+
+
+    <!-- VALIDATE string start -->
+    <string name="validError_username">Username must be alphanumeric and between 3 and 15 characters</string>
+    <string name="validError_password">Password length must be greater than 6</string>
+    <string name="validError_email">Email is not valid</string>
+    <string name="validError_description">Description must be alphanumeric and between 3 and 50 characters</string>
+    <!-- VALIDATE stop -->
+
+    <!-- StartActivity start-->
+    <string name="startActivity_take2fie">Take a 2fie</string>
+    <string name="startActivity_viewGallery">View gallery</string>
+    <string name="startActivity_shareAppLink">Share this app</string>
+    <string name="startActivity_shareAppText">Look, I got a 2fie App</string>
+    <!-- StartActivity end-->
+
+
+    <!-- LoginActivity start-->
+    <string name="loginAcitvity_loginHeaderText">Clip2gether login</string>
+    <string name="loginActivity_usernameEmail">Username or Email</string>
+    <string name="loginActivity_password">Password</string>
+    <string name="loginActivity_signInClip2gether">Sign in</string>
+    <string name="loginActivity_registerLink">New to clip2gether? Register here</string>
+    <string name="loginActivity_error_loginFailed">ups, the login failed</string>
+    <string name="loginActivity_error_connectionError">ups, the communication went wrong</string>
+    <string name="loginActivity_error_offlineNotification">it looks like you are offline</string>
+    <string name="loginActivity_autoLogin">automatically login</string>
+    <string name="loginAcitvity_cancelLogin">cancel login</string>
+    <string name="loginAcitvity_dialog_text">login...</string>
+    <string name="loginAcitvity_saveCredentialsCheckbox">automatically login</string>
+
+    <!-- LoginActivity end-->
+
+
+    <!-- RegsiterActivity start-->
+    <string name="registerAcitvity_registerHeaderText">Clip2gether register</string>
+    <string name="registerActivity_username">Username</string>
+    <string name="registerActivity_password">Password</string>
+    <string name="registerActivity_email">Email</string>
+    <string name="registerActivity_linkLogin">Already has an account! Login here</string>
+    <string name="registerActivity_signInFacebook">Sign in with Facebook</string>
+    <string name="registerActivity_signInGooglePlus">Sign in with Google+</string>
+    <string name="registerActivity_error_UsernameInUse">the username is already in use. Please choose another one</string>
+    <string name="registerActivity_error_EMailInUse">the email is already in use. Please choose another one</string>
+    <string name="registerActivity_error_noEmail">choose a valid email, please</string>
+    <string name="registerActivity_error_noUsername">choose a valid username, please</string>
+    <string name="registerActivity_error_noPassword">choose a valid password, please</string>
+    <string name="registerActivity_signInClip2gether">Register clip2gether account</string>
+    <string name="registerActivity_connectionError">ups, the communication went wrong</string>
+    <string name="registerActivity_offlineNotification">it looks like you are offline</string>
+    <string name="registerAcitvity_dialog_text">register...</string>
+    <!--  RegsiterActivity end-->
+
+
+    <!--  CameraActivity start-->
+    <string name="cameraActivity_error_noCamera">Sorry, your phone does not have a camera!</string>
+    <string name="cameraActivity_error_onlyOneCamera">Sorry, your phone has only one camera!</string>
+    <string name="cameraActivity_error_noFrontCamera">No front facing camera found.</string>
+    <string name="cameraActivity_error_uploadFailed">Oh, the upload failed, please try again</string>
+    <string name="cameraActivity_error_connectionError">ups, the communication went wrong</string>
+    <string name="cameraActivity_error_offlineNotification">it looks like you are offline</string>
+    <string name="cameraAcitvity_camera_uploadDialog_text">upload 2fie...</string>
+       <!-- dialogUpload - start-->
+        <string name="cameraActivity_dialog_upload2fie">upload my 2fie</string>
+        <string name="cameraActivity_dialog_messageToTheWorld">Your message to the world</string>
+        <!-- dialogUpload - end-->
+        <!-- dialogUpload - start-->
+        <string name="cameraActivity_dialog_takeNew2fie">Take another 2fie</string>
+        <string name="cameraActivity_dialog_share2fieText">Hey, watch out my newest 2fie</string>
+        <!-- dialogUpload - end-->
+    <!-- CameraActivity end-->
+
+    <!-- GalleryActivity start-->
+    <string name="galleryAcitvity_gallery_uploadDialog_text">load content...</string>
+    <!-- GalleryActivity end-->
+
+    <style name="ButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <style name="LoginButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <!-- Activitys start-->
+    <string name="title_activity_activity_start_up">activityStartUp</string>
+    <string name="title_activity_activity_register">activityRegister</string>
+    <string name="title_activity_activity_login">activityLogin</string>
+    <string name="title_activity_start_up">startUp</string>
+    <string name="title_activity_share">Share</string>
+    <string name="title_activity_activity_auth">activityAuth</string>
+    <!-- Activitys end-->
+</resources>

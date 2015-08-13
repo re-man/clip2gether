@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/X:/Dropbox/1-Studium/Wirtschaftsinformatik/semester%203/10%20-%20Projetkarbeit/clip2gether/source/clip2gether/app/src/main/res/values-v9/themes_clip2gether.xml -->
+    <eat-comment/>
+    <style name="clip2gether" parent="@style/_clip2gether">
+
+    <item name="android:textSelectHandleLeft">@drawable/clip2gether_text_select_handle_left</item>
+    <item name="android:textSelectHandleRight">@drawable/clip2gether_text_select_handle_right</item>
+    <item name="android:textSelectHandle">@drawable/clip2gether_text_select_handle_middle</item>
+
+  </style>
+</resources>

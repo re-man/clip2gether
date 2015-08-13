@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/X:/Dropbox/1-Studium/Wirtschaftsinformatik/semester%203/10%20-%20Projetkarbeit/clip2gether/source/clip2gether/app/src/main/res/values/colors_clip2gether.xml -->
+    <eat-comment/>
+    <color name="clip2gether_color">#fbba0e</color>
+    <!-- From: file:/X:/Dropbox/1-Studium/Wirtschaftsinformatik/semester%203/10%20-%20Projetkarbeit/clip2gether/source/clip2gether/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">26dp</dimen>
+    <dimen name="activity_vertical_margin">26dp</dimen>
+    <!-- From: file:/X:/Dropbox/1-Studium/Wirtschaftsinformatik/semester%203/10%20-%20Projetkarbeit/clip2gether/source/clip2gether/app/src/main/res/values/dimens_clip2gether.xml -->
+    <eat-comment/>
+    <dimen name="tab_host_default_height">48dp</dimen>
+    <!-- From: file:/X:/Dropbox/1-Studium/Wirtschaftsinformatik/semester%203/10%20-%20Projetkarbeit/clip2gether/source/clip2gether/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">clip2gether</string>
+    <string name="cameraAcitvity_camera_uploadDialog_text">upload 2fie...</string>
+    <string name="cameraActivity_dialog_messageToTheWorld">Your message to the world</string>
+    <string name="cameraActivity_dialog_share2fieText">Hey, watch out my newest 2fie</string>
+    <string name="cameraActivity_dialog_takeNew2fie">Take another 2fie</string>
+    <string name="cameraActivity_dialog_upload2fie">upload my 2fie</string>
+    <string name="cameraActivity_error_connectionError">ups, the communication went wrong</string>
+    <string name="cameraActivity_error_noCamera">Sorry, your phone does not have a camera!</string>
+    <string name="cameraActivity_error_noFrontCamera">No front facing camera found.</string>
+    <string name="cameraActivity_error_offlineNotification">it looks like you are offline</string>
+    <string name="cameraActivity_error_onlyOneCamera">Sorry, your phone has only one camera!</string>
+    <string name="cameraActivity_error_uploadFailed">Oh, the upload failed, please try again</string>
+    <string name="galleryAcitvity_gallery_uploadDialog_text">load content...</string>
+    <string name="loginAcitvity_cancelLogin">cancel login</string>
+    <string name="loginAcitvity_dialog_text">login...</string>
+    <string name="loginAcitvity_loginHeaderText">Clip2gether login</string>
+    <string name="loginAcitvity_saveCredentialsCheckbox">automatically login</string>
+    <string name="loginActivity_autoLogin">automatically login</string>
+    <string name="loginActivity_error_connectionError">ups, the communication went wrong</string>
+    <string name="loginActivity_error_loginFailed">ups, the login failed</string>
+    <string name="loginActivity_error_offlineNotification">it looks like you are offline</string>
+    <string name="loginActivity_password">Password</string>
+    <string name="loginActivity_registerLink">New to clip2gether? Register here</string>
+    <string name="loginActivity_signInClip2gether">Sign in</string>
+    <string name="loginActivity_usernameEmail">Username or Email</string>
+    <string name="registerAcitvity_dialog_text">register...</string>
+    <string name="registerAcitvity_registerHeaderText">Clip2gether register</string>
+    <string name="registerActivity_connectionError">ups, the communication went wrong</string>
+    <string name="registerActivity_email">Email</string>
+    <string name="registerActivity_error_EMailInUse">the email is already in use. Please choose another one</string>
+    <string name="registerActivity_error_UsernameInUse">the username is already in use. Please choose another one</string>
+    <string name="registerActivity_error_noEmail">choose a valid email, please</string>
+    <string name="registerActivity_error_noPassword">choose a valid password, please</string>
+    <string name="registerActivity_error_noUsername">choose a valid username, please</string>
+    <string name="registerActivity_linkLogin">Already has an account! Login here</string>
+    <string name="registerActivity_offlineNotification">it looks like you are offline</string>
+    <string name="registerActivity_password">Password</string>
+    <string name="registerActivity_signInClip2gether">Register clip2gether account</string>
+    <string name="registerActivity_signInFacebook">Sign in with Facebook</string>
+    <string name="registerActivity_signInGooglePlus">Sign in with Google+</string>
+    <string name="registerActivity_username">Username</string>
+    <string name="startActivity_shareAppLink">Share this app</string>
+    <string name="startActivity_shareAppText">Look, I got a 2fie App</string>
+    <string name="startActivity_take2fie">Take a 2fie</string>
+    <string name="startActivity_viewGallery">View gallery</string>
+    <string name="title_activity_activity_auth">activityAuth</string>
+    <string name="title_activity_activity_login">activityLogin</string>
+    <string name="title_activity_activity_register">activityRegister</string>
+    <string name="title_activity_activity_start_up">activityStartUp</string>
+    <string name="title_activity_share">Share</string>
+    <string name="title_activity_start_up">startUp</string>
+    <string name="urlConn_authControllURL">http://www.clip2gether.com/mobile/app/v1/android/socialAuth/view.php</string>
+    <string name="urlConn_authRegister_Facebook">http://www.clip2gether.com/wp-login.php?action=wordpress_social_authenticate&amp;mode=login&amp;provider=Facebook&amp;redirect_to=http%3A%2F%2Fwww.clip2gether.com%2Fmobile%2Fapp%2Fv1%2Fandroid%2FsocialAuth%2Findex.php</string>
+    <string name="urlConn_authRegister_GPlus">http://www.clip2gether.com/wp-login.php?action=wordpress_social_authenticate&amp;mode=login&amp;provider=Google&amp;redirect_to=http%3A%2F%2Fwww.clip2gether.com%2Fmobile%2Fapp%2Fv1%2Fandroid%2FsocialAuth%2Findex.php</string>
+    <string name="urlConn_loginURL">http://www.clip2gether.com/mobile/app/v1/android/login/login.php</string>
+    <string name="urlConn_registURL">http://www.clip2gether.com/mobile/app/v1/android/register/register.php</string>
+    <string name="urlConn_shareApp">http://play.google.com/store/apps/details?id=com.hswgt.android.clip2gether</string>
+    <string name="urlConn_shareURL">http://www.clip2gether.com/2fies/2fies/?contest=photo-detail&amp;photo_id=</string>
+    <string name="urlConn_uploadURL">http://www.clip2gether.com/mobile/app/v1/android/upload/upload.php</string>
+    <string name="urlConn_webview_view2fieURL">http://www.clip2gether.com/mobile/app/v1/wrapper/galerie.php?url=http://www.clip2gether.com/2fies/2fies/?contest=photo-detail&amp;photo_id=</string>
+    <string name="urlConn_webview_viewGallery">http://www.clip2gether.com/mobile/app/v1/wrapper/galerie.php</string>
+    <string name="validError_description">Description must be alphanumeric and between 3 and 50 characters</string>
+    <string name="validError_email">Email is not valid</string>
+    <string name="validError_password">Password length must be greater than 6</string>
+    <string name="validError_username">Username must be alphanumeric and between 3 and 15 characters</string>
+    <!-- From: file:/X:/Dropbox/1-Studium/Wirtschaftsinformatik/semester%203/10%20-%20Projetkarbeit/clip2gether/source/clip2gether/app/src/main/res/values/styles_clip2gether.xml -->
+    <eat-comment/>
+    <style name="AutoCompleteTextViewclip2gether" parent="android:Widget.AutoCompleteTextView">
+      <item name="android:dropDownSelector">@drawable/clip2gether_list_selector_holo_light</item>
+	  <item name="android:background">@drawable/clip2gether_edit_text_holo_light</item>
+	  <item name="android:textColor">#000000</item>
+  </style>
+    <!-- From: file:/X:/Dropbox/1-Studium/Wirtschaftsinformatik/semester%203/10%20-%20Projetkarbeit/clip2gether/source/clip2gether/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <style name="ButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+    <!-- From: file:/X:/Dropbox/1-Studium/Wirtschaftsinformatik/semester%203/10%20-%20Projetkarbeit/clip2gether/source/clip2gether/app/src/main/res/values/styles_clip2gether.xml -->
+    <eat-comment/>
+    <style name="Buttonclip2gether" parent="android:Widget.Button">
+	  <item name="android:background">@drawable/clip2gether_btn_default_holo_light</item>
+	  <item name="android:minHeight">48dip</item>
+	  <item name="android:minWidth">64dip</item>
+	  <item name="android:textColor">#000000</item>
+  </style>
+    <style name="CheckBoxclip2gether" parent="android:Widget.CompoundButton.CheckBox">
+      <item name="android:button">@drawable/clip2gether_btn_check_holo_light</item>
+  </style>
+    <style name="EditTextclip2gether" parent="android:Widget.EditText">
+	  <item name="android:background">@drawable/clip2gether_edit_text_holo_light</item>
+	  <item name="android:textColor">#000000</item>
+  </style>
+    <style name="ImageButtonclip2gether" parent="android:Widget.ImageButton">
+	  <item name="android:background">@drawable/clip2gether_btn_default_holo_light</item>
+  </style>
+    <style name="ListViewclip2gether" parent="android:Widget.ListView">
+      <item name="android:listSelector">@drawable/clip2gether_list_selector_holo_light</item>
+  </style>
+    <style name="ListViewclip2gether.White" parent="android:Widget.ListView.White">
+      <item name="android:listSelector">@drawable/clip2gether_list_selector_holo_light</item>
+  </style>
+    <!-- From: file:/X:/Dropbox/1-Studium/Wirtschaftsinformatik/semester%203/10%20-%20Projetkarbeit/clip2gether/source/clip2gether/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <style name="LoginButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+    <!-- From: file:/X:/Dropbox/1-Studium/Wirtschaftsinformatik/semester%203/10%20-%20Projetkarbeit/clip2gether/source/clip2gether/app/src/main/res/values/styles_clip2gether.xml -->
+    <eat-comment/>
+    <style name="ProgressBarclip2gether" parent="android:Widget.ProgressBar.Horizontal">
+      <item name="android:progressDrawable">@drawable/clip2gether_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/clip2gether_progress_indeterminate_horizontal_holo_light</item>
+      <item name="android:minHeight">16dip</item>
+      <item name="android:maxHeight">16dip</item>
+  </style>
+    <style name="RadioButtonclip2gether" parent="android:Widget.CompoundButton.RadioButton">
+      <item name="android:button">@drawable/clip2gether_btn_radio_holo_light</item>
+  </style>
+    <style name="SeekBarclip2gether" parent="android:Widget.SeekBar">
+      <item name="android:progressDrawable">@drawable/clip2gether_scrubber_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/clip2gether_scrubber_progress_horizontal_holo_light</item>
+      <item name="android:minHeight">13dip</item>
+      <item name="android:maxHeight">13dip</item>
+      <item name="android:thumb">@drawable/clip2gether_scrubber_control_selector_holo_light</item>
+      <item name="android:thumbOffset">16dip</item>
+      <item name="android:paddingLeft">16dip</item>
+      <item name="android:paddingRight">16dip</item>
+  </style>
+    <style name="SpinnerDropDownItemclip2gether" parent="android:Widget.DropDownItem.Spinner">
+      <item name="android:checkMark">@drawable/clip2gether_btn_radio_holo_light</item>
+  </style>
+    <style name="SpinnerItemclip2gether" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+      <item name="android:textColor">#000000</item>
+  </style>
+    <style name="Spinnerclip2gether" parent="android:Widget.Spinner">
+      <item name="android:background">@drawable/clip2gether_spinner_background_holo_light</item>
+      <item name="android:dropDownSelector">@drawable/clip2gether_list_selector_holo_light</item>
+  </style>
+    <style name="TabTextclip2gether">
+	  <item name="android:textColor">#000000</item>
+      <item name="android:textSize">12sp</item>
+      <item name="android:textStyle">bold</item>
+      <!-- v14 <item name="android:textAllCaps">true</item> -->
+      <item name="android:ellipsize">marquee</item>
+      <item name="android:maxLines">2</item>
+      <item name="android:maxWidth">180dip</item>
+  </style>
+    <style name="Tabclip2gether">
+      <item name="android:gravity">center_horizontal</item>
+      <item name="android:paddingLeft">16dip</item>
+      <item name="android:paddingRight">16dip</item>
+      <item name="android:background">@drawable/clip2gether_tab_indicator_holo</item>
+      <item name="android:layout_width">0dip</item>
+      <item name="android:layout_weight">1</item>
+      <item name="android:minWidth">80dip</item>
+  </style>
+    <style name="Toggleclip2gether" parent="android:Widget.Button.Toggle">
+      <item name="android:background">@drawable/clip2gether_btn_toggle_holo_light</item>
+      <item name="android:minHeight">48dip</item>
+	  <item name="android:textColor">#000000</item>
+  </style>
+    <!-- From: file:/X:/Dropbox/1-Studium/Wirtschaftsinformatik/semester%203/10%20-%20Projetkarbeit/clip2gether/source/clip2gether/app/src/main/res/values/themes_clip2gether.xml -->
+    <eat-comment/>
+    <style name="_clip2gether" parent="android:Theme.Light">
+
+    <item name="android:editTextStyle">@style/EditTextclip2gether</item>
+
+    <item name="android:textColorHighlight">#99fbba0e</item>
+
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewclip2gether</item>
+
+    <item name="android:checkboxStyle">@style/CheckBoxclip2gether</item>
+
+    <item name="android:radioButtonStyle">@style/RadioButtonclip2gether</item>
+
+    <item name="android:buttonStyle">@style/Buttonclip2gether</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonclip2gether</item>
+
+    <item name="android:spinnerStyle">@style/Spinnerclip2gether</item>
+
+    <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemclip2gether</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarclip2gether</item>
+
+    <item name="android:seekBarStyle">@style/SeekBarclip2gether</item>
+
+    <item name="android:buttonStyleToggle">@style/Toggleclip2gether</item>
+
+    <item name="android:listViewStyle">@style/ListViewclip2gether</item>
+
+    <item name="android:listViewWhiteStyle">@style/ListViewclip2gether.White</item>
+
+    <item name="android:spinnerItemStyle">@style/SpinnerItemclip2gether</item>
+
+  </style>
+    <style name="clip2gether" parent="@style/_clip2gether"/>
+</resources>

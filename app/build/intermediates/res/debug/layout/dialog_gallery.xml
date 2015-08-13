@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_weight="0.08"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/galleryAcitvity_gallery_uploadDialog_text"
+        android:id="@+id/textView"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="30dp" />
+
+</LinearLayout><!-- From: file:/X:/Dropbox/1-Studium/Wirtschaftsinformatik/semester%203/10%20-%20Projetkarbeit/clip2gether/source/clip2gether/app/src/main/res/layout/dialog_gallery.xml -->

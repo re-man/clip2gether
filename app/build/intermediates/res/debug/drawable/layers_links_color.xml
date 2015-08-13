@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"
+        android:color="#C48900"/> <!-- pressed -->
+    <item android:color="#FBBA0E"/> <!-- default -->
+</selector><!-- From: file:/X:/Dropbox/1-Studium/Wirtschaftsinformatik/semester%203/10%20-%20Projetkarbeit/clip2gether/source/clip2gether/app/src/main/res/drawable/layers_links_color.xml -->

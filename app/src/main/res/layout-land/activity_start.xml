@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context=".StartActivity"
+    android:background="#ffffffff"
+    android:focusable="false"
+  >
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/ic_clip2gether_logo"
+        android:layout_above="@+id/linearLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/linearlayout_bg"
+        android:padding="10dp"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/btnShareThisApp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right">
+
+
+
+            <Button
+                android:id="@+id/btnSelectLoginMethod"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:text="@string/startActivity_take2fie"
+                android:onClick="onClickHandler"
+                style="@style/Buttonclip2gether"
+                android:drawableLeft="@android:drawable/ic_menu_camera"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:paddingLeft="10dp"
+                android:drawablePadding="-25dp"
+                android:background="@drawable/button_standard_bg"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/btnViewGalerie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:textColor="#fff"
+                android:text="@string/startActivity_viewGallery"
+                android:onClick="onClickHandler"
+                android:background="@drawable/button_galerie_bg"
+                android:paddingLeft="10dp"
+                android:drawablePadding="-25dp"
+                style="@style/Buttonclip2gether"
+                android:drawableLeft="@android:drawable/ic_menu_gallery"
+                android:layout_weight="1"/>
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+    <TextView  android:id="@+id/btnShareThisApp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Share this app"
+        android:gravity="center"
+        android:textSize="22dip"
+        android:textColor="#3D94E5"
+        android:paddingTop="5dp"
+        android:textStyle="normal|bold"
+        android:paddingLeft="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="onClickHandler"
+        android:paddingBottom="10dp" />
+
+
+
+
+</RelativeLayout>

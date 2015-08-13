@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#fffbba0e">
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/webview" />
+</LinearLayout>
+<!-- From: file:/X:/Dropbox/1-Studium/Wirtschaftsinformatik/semester%202/9%20Projetkarbeit/clip2gether/source/clip2gether/app/src/main/res/layout/activity_galerie.xml -->

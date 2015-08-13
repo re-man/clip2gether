@@ -1,0 +1,130 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    android:focusable="false"
+    tools:context=".StartActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="#333"
+            android:orientation="vertical"
+            android:paddingBottom="5dip">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/clip2gether_trans"
+                android:layout_marginLeft="10dip" />
+
+            <TextView
+                android:id="@+id/loginTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:singleLine="true"
+                android:text="@string/loginAcitvity_loginHeaderText"
+                android:textColor="#fff"
+                android:textSize="26dp"
+                android:textStyle="bold"
+                android:gravity="center_vertical" />
+        </LinearLayout>
+    </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/header"
+            android:orientation="vertical"
+            android:padding="10dip"
+            android:weightSum="1">
+            <!--   Email Label  -->
+
+            <EditText
+                android:id="@+id/email"
+                style="@style/EditTextclip2gether"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawableLeft="@drawable/ic_image_timer_auto"
+                android:hint="@string/loginActivity_usernameEmail"
+
+                android:layout_marginBottom="8dip"
+                android:singleLine="true"
+                android:textColor="#222"
+                android:textCursorDrawable="@drawable/cursorstyle"
+                android:textSize="18dp" />
+            <!--   Password Label  -->
+
+
+            <EditText
+                android:id="@+id/password"
+                style="@style/EditTextclip2gether"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_communication_vpn_key"
+                android:password="true"
+                android:singleLine="true"
+                android:textColor="#222"
+                android:textCursorDrawable="@drawable/cursorstyle"
+                android:hint="@string/loginActivity_password"
+                android:textSize="18dp"
+                />
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dip"
+                android:layout_marginTop="10dp"
+                android:checked="false"
+                style="@style/CheckBoxclip2gether"
+                android:text="@string/loginAcitvity_saveCredentialsCheckbox"
+                android:textColor="#777" />
+
+            <Button
+                android:id="@+id/btnActivityLogin_Clip2Gether"
+                style="@style/Buttonclip2gether"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@android:drawable/ic_lock_idle_lock"
+                android:background="@drawable/button_standard_bg"
+                android:textColor="#fff"
+                android:paddingLeft="10dp"
+                android:drawablePadding="-25dp"
+                android:text="@string/loginActivity_signInClip2gether"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/link_to_register"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/linearLayout02"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:text="@string/loginActivity_registerLink"
+                android:textColor="@drawable/layers_links_color"
+                android:textSize="22dip"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView><!-- From: file:/X:/Dropbox/1-Studium/Wirtschaftsinformatik/semester%202/9%20Projetkarbeit/clip2gether/source/clip2gether/app/src/main/res/layout/activity_login.xml -->

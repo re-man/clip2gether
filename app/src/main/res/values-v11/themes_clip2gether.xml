@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="clip2gether" parent="@style/_clip2gether"/>
+
+  <style name="_clip2gether" parent="android:Theme.Holo.Light">
+
+    <item name="android:editTextBackground">@drawable/clip2gether_edit_text_holo_light</item>
+
+    <item name="android:textColorHighlight">#99fbba0e</item>
+    <item name="android:textSelectHandleLeft">@drawable/clip2gether_text_select_handle_left</item>
+    <item name="android:textSelectHandleRight">@drawable/clip2gether_text_select_handle_right</item>
+    <item name="android:textSelectHandle">@drawable/clip2gether_text_select_handle_middle</item>
+
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewclip2gether</item>
+
+    <item name="android:listChoiceIndicatorMultiple">@drawable/clip2gether_btn_check_holo_light</item>
+
+    <item name="android:listChoiceIndicatorSingle">@drawable/clip2gether_btn_radio_holo_light</item>
+
+    <item name="android:buttonStyle">@style/Buttonclip2gether</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonclip2gether</item>
+
+    <item name="android:dropDownSpinnerStyle">@style/Spinnerclip2gether</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarclip2gether</item>
+
+    <item name="android:seekBarStyle">@style/SeekBarclip2gether</item>
+
+    <item name="android:buttonStyleToggle">@style/Toggleclip2gether</item>
+
+    <item name="android:listChoiceBackgroundIndicator">@drawable/clip2gether_list_selector_holo_light</item>
+
+    <item name="android:activatedBackgroundIndicator">@drawable/clip2gether_activated_background_holo_light</item>
+
+    <item name="android:fastScrollThumbDrawable">@drawable/clip2gether_fastscroll_thumb_holo</item>
+
+  </style>
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:drawable="@drawable/button_standard_bg"
+        android:id="@+id/t_bg" />
+    <item
+        android:top="0dp" android:left="5dp">
+        <bitmap android:src="@android:drawable/ic_menu_camera"
+            android:gravity="left" />
+    </item>
+</layer-list>
+
+<!-- From: file:/X:/Dropbox/1-Studium/Wirtschaftsinformatik/semester%202/9%20Projetkarbeit/clip2gether/source/clip2gether/app/src/main/res/drawable-hdpi/layers_standard_button_bg.xml -->

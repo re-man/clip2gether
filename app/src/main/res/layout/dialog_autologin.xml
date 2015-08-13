@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+    <FrameLayout
+        android:id="@+id/camera_preview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/loginAcitvity_cancelLogin"
+            android:id="@+id/dbutton"
+            android:layout_margin="15dp"
+            android:padding="20dp"
+
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal|bottom"
+            android:drawableLeft="@android:drawable/ic_menu_close_clear_cancel"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+          >
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/progressBar"
+                android:layout_gravity="bottom|center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/loginAcitvity_dialog_text"
+                android:id="@+id/textView"
+                android:textStyle="bold"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+</RelativeLayout>
