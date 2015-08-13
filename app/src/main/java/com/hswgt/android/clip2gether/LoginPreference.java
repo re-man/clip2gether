@@ -14,7 +14,7 @@ public class LoginPreference {
 
     /**
      * Erstelle ein neues Objekt um auf die SharedPreferences zuzugreifen, es wird auf das Default Preferences zugegriefen
-     * @param context Context
+     * @param context Context 
      */
     public LoginPreference(Context context) {
         this.context = context;
