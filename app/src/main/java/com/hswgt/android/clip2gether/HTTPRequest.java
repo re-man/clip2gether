@@ -1,5 +1,4 @@
 package com.hswgt.android.clip2gether;
-// @todo Kommentare ergänzen
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;

@@ -212,7 +212,6 @@ public class activityRegister extends Activity {
                     if ((null != strActivityLogin_LoginResponse)) {
 
                         // Werten wir diese aus, dazu finden sich in der PHP Datei die verschiedenen Statuswerte
-                        // TODO auflisten der Status beim Register
 
                         switch (strActivityLogin_LoginResponse) {
 
