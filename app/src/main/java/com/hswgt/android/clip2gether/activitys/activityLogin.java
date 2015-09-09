@@ -105,6 +105,12 @@ public class activityLogin extends Activity {
     }
 
 
+    /**
+     *
+     * @param username
+     * @param password
+     * @param autologin
+     */
     public void login(String username, String password, Boolean autologin) {
         dlgActivityLogin_loginDialog = new Dialog(activityLogin.this);
         dlgActivityLogin_loginDialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
@@ -129,6 +135,12 @@ public class activityLogin extends Activity {
         tryLogin(username, password, autologin);
     }
 
+    /**
+     *
+     * @param username
+     * @param password
+     * @param autologin
+     */
     public void tryLogin(String username, String password, Boolean autologin) {
 
         final String strActivityLogin_Username = username;
@@ -272,6 +284,10 @@ public class activityLogin extends Activity {
         }
     }
 
+    /**
+     *
+     * @return
+     */
     public boolean isConnected() {
         ConnectivityManager connMgr = (ConnectivityManager) getSystemService(this.CONNECTIVITY_SERVICE);
         NetworkInfo networkInfo = connMgr.getActiveNetworkInfo();

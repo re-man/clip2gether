@@ -16,14 +16,14 @@ import com.hswgt.android.clip2gether.R;
  * Created by Andreas on 11.06.2015.
  */
 public class activityGallery extends Activity{
-    WebView webview;
-    Dialog dialog;
+    WebView wbvGallery_webview;
+    Dialog dlgGallery_progressDialog;
 
     @Override
     public void onBackPressed()
     {
-        if(webview.canGoBack()){
-            webview.goBack();
+        if(wbvGallery_webview.canGoBack()){
+            wbvGallery_webview.goBack();
         }else{
             finish();
         }
@@ -33,37 +33,34 @@ public class activityGallery extends Activity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_galerie);
-        webview = (WebView)findViewById(R.id.webview);
-        webview.setVisibility(View.GONE);
+        wbvGallery_webview = (WebView)findViewById(R.id.webview);
+        wbvGallery_webview.setVisibility(View.GONE);
 
 
-        dialog = new Dialog(activityGallery.this);
-        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
-        dialog.getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
-        dialog.setContentView(R.layout.dialog_gallery);
-        dialog.setCanceledOnTouchOutside(false);
-        dialog.show();
+        dlgGallery_progressDialog = new Dialog(activityGallery.this);
+        dlgGallery_progressDialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        dlgGallery_progressDialog.getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
+        dlgGallery_progressDialog.setContentView(R.layout.dialog_gallery);
+        dlgGallery_progressDialog.setCanceledOnTouchOutside(false);
+        dlgGallery_progressDialog.show();
 
 
-        webview.getSettings().setJavaScriptEnabled(true);
-        webview.loadUrl(getResources().getString(R.string.urlConn_webview_viewGallery));
+        wbvGallery_webview.getSettings().setJavaScriptEnabled(true);
+        wbvGallery_webview.loadUrl(getResources().getString(R.string.urlConn_webview_viewGallery));
 
-
-
-        webview.setWebViewClient(new WebViewClient() {
+        wbvGallery_webview.setWebViewClient(new WebViewClient() {
             @Override
             public void onPageFinished(WebView view, String url) {
-                webview.setVisibility(View.VISIBLE);
-                dialog.hide();
+                wbvGallery_webview.setVisibility(View.VISIBLE);
+                dlgGallery_progressDialog.hide();
             }
 
             @Override
             public void onPageStarted(WebView view, String url, Bitmap favicon) {
-                webview.setVisibility(View.GONE);
-                dialog.show();
+                wbvGallery_webview.setVisibility(View.GONE);
+                dlgGallery_progressDialog.show();
 
             }
-
 
 
         });

@@ -149,6 +149,12 @@ public class activityRegister extends Activity {
 
     }
 
+    /**
+     *
+     * @param tempUsername
+     * @param tempEmail
+     * @param tempPassword
+     */
     public void register(String tempUsername, String tempEmail, String tempPassword){
 
         dialog = new Dialog(activityRegister.this);
@@ -300,6 +306,10 @@ public class activityRegister extends Activity {
     }
 
 
+    /**
+     *
+     * @return
+     */
     public boolean isConnected() {
         ConnectivityManager connMgr = (ConnectivityManager) getSystemService(this.CONNECTIVITY_SERVICE);
         NetworkInfo networkInfo = connMgr.getActiveNetworkInfo();
