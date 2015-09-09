@@ -12,6 +12,12 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
     private SurfaceHolder mHolder;
     private Camera mCamera;
 
+
+    /**
+     *
+     * @param context
+     * @param camera
+     */
     public CameraPreview(Context context, Camera camera) {
         super(context);
         mCamera = camera;
@@ -21,6 +27,11 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
         mHolder.setType(SurfaceHolder.SURFACE_TYPE_PUSH_BUFFERS);
     }
 
+
+    /**
+     *
+     * @param holder
+     */
     public void surfaceCreated(SurfaceHolder holder) {
         try {
             // create the surface and start camera preview
@@ -39,7 +50,10 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
         }
     }
 
-
+    /**
+     *
+     * @param camera
+     */
     public void refreshCamera(Camera camera) {
         if (mHolder.getSurface() == null) {
             // preview surface does not exist
@@ -68,6 +82,13 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
         }
     }
 
+    /**
+     *
+     * @param holder
+     * @param format
+     * @param w
+     * @param h
+     */
     public void surfaceChanged(SurfaceHolder holder, int format, int w, int h) {
         // If your preview can change or rotate, take care of those events here.
         // Make sure to stop the preview before resizing or reformatting it.
@@ -75,6 +96,10 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
         refreshCamera(mCamera);
     }
 
+    /**
+     *
+     * @param camera
+     */
     public void setCamera(Camera camera) {
 
         //method to set a camera instance
