@@ -210,7 +210,7 @@ public class activityRegister extends Activity {
 
                     // Wenn wir eine Antwort haben
                     if ((null != strActivityLogin_LoginResponse)) {
-
+ 
                         // Werten wir diese aus, dazu finden sich in der PHP Datei die verschiedenen Statuswerte
 
                         switch (strActivityLogin_LoginResponse) {
